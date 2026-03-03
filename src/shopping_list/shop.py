@@ -99,3 +99,9 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# src/shopping_list/shop.py
+from storage import ensure_prices_file
+
+# pārbauda un izveido prices.json, ja tāds nav
+ensure_prices_file()
